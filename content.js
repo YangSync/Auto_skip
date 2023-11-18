@@ -4,9 +4,9 @@
         var skipButton = document.querySelector('.ytp-ad-text.ytp-ad-skip-button-text');
         if (skipButton) {
             skipButton.click();
-            console.log("Click button");
-            clearInterval(timer);
+            console.log("Auto_skip");
+            clearInterval(t);
         }
     }
-    var timer = setInterval(skipAd, 1000);
+    var t = setInterval(skipAd, 1000);
 })();
