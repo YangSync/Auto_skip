@@ -1,16 +1,11 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Auto_skip",
     "version": "1.0",
     "description": "Skip YouTube ads automatically.",
     "permissions": [
         "activeTab"
     ],
-    "browser_action": {
-        "default_icon": {
-            "128": "images/icon128.png"
-        }
-    },
     "icons": {
         "128": "images/icon128.png"
     },
